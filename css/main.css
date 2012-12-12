@@ -1,0 +1,174 @@
+    ::selection{ background-color: #E13300; color: white; }
+	::moz-selection{ background-color: #E13300; color: white; }
+	::webkit-selection{ background-color: #E13300; color: white; }
+
+	body {
+		background-color: #E0DCDE;
+		margin: 40px;
+		font: 13px/20px normal Helvetica, Arial, sans-serif;
+		color: #4F5155;
+	}
+
+	a {
+		color: #003399;
+		background-color: transparent;
+		font-weight: normal;
+	}
+
+	h1 {
+		color: #444;
+		background-color: transparent;
+		border-bottom: 1px solid #D0D0D0;
+		font-size: 24px;
+		font-weight: bold;
+		margin: 0 20px 16px 20px;
+		padding: 14px 15px 10px 15px;
+	}
+
+	code {
+		font-family: Consolas, Monaco, Courier New, Courier, monospace;
+		font-size: 12px;
+		background-color: #f9f9f9;
+		border: 1px solid #D0D0D0;
+		color: #002166;
+		display: block;
+		margin: 14px 0 14px 0;
+		padding: 12px 10px 12px 10px;
+	}
+
+	#body{
+		margin: 0 15px 0 15px;
+	}
+	
+	p.footer{
+		text-align: right;
+		background-color: #FFFFFF;
+		font-size: 11px;
+		border-top: none;
+		line-height: 32px;
+		padding: 0 10px 0 10px;
+		margin: 20px 0 0 0;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+	}
+	
+	#container{
+		margin: 10px;
+		background-color: #FFFFFF;
+		width: 800px;
+		margin-left:auto;
+		margin-right:auto;
+		border: 1px solid #D0D0D0;
+		-webkit-box-shadow: 0 0 8px #D0D0D0;
+		-webkit-border-radius: 10px;
+		-moz-box-shadow: 0 0 8px #D0D0D0;
+		-moz-border-radius: 10px;
+		box-shadow: 0 0 8px #D0D0D0;
+		border-radius: 10px;
+		
+	}
+	
+	#usage{
+		margin: 10px;
+		padding: 10px;
+		background-color: #FFFFFF;
+		height: 50px;
+		width: 700px;
+		margin-left:auto;
+		margin-right:auto;
+		border: 1px solid #D0D0D0;
+		-webkit-box-shadow: 0 0 8px #D0D0D0;
+		-webkit-border-radius: 10px;
+		-moz-box-shadow: 0 0 8px #D0D0D0;
+		-moz-border-radius: 10px;
+		box-shadow: 0 0 8px #D0D0D0;
+		border-radius: 10px;
+	}
+	
+	.sys_specs{
+		float: left;
+		padding: 4px 0 4px 4px;
+		margin: 5px;
+		height: 40px;
+		width: 190px;
+		border-right: 1px solid #D0D0D0;
+		background-color: #FFFFFF;
+	}
+	
+	.titles{
+		font-weight: bold;
+		width: 120px;
+	}
+	
+	#mem_total{
+		color: #1b6f2c;
+		font-weight: bold;
+	}
+	
+	#mem_free{
+		color: #1cb53c;
+		font-weight: bold;
+	}
+	
+	#disk_total{
+		color: #1b6f2c;
+		font-weight: bold;
+	}
+	
+	#disk_free{
+		color: #1cb53c;
+		font-weight: bold;
+	}
+	
+	#cpu_idle{
+		color: #1cb53c;
+		font-weight: bold;
+	}
+	
+	#pi_cel{
+		color: #1cb53c;
+		font-weight: bold;
+	}
+	
+	#pi_far{
+		color: #1cb53c;
+		font-weight: bold;
+	}
+	
+	.piLink{
+		display: inline-block;
+		font-weight: bold;
+		cursor: pointer;
+		margin-top: 5px;
+		padding: 0 4px 2px 0;
+		color: #E01B6A;
+	}
+	
+	.piContent{
+		background-color: #EBD5DE;
+		border: 1px solid #D0D0D0;
+		margin-top: 2px;
+		padding: 10px;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+	}
+	
+	.piContent p{
+		color: #000000;
+		font-weight: normal;
+		
+	}
+		
+	ul li {
+		list-style-image: url(/img/favicon.ico);
+	}
+	
+	ol li {
+		list-style-type: decimal;
+	}
+	
+	.pics {
+		text-align: center;
+	}
